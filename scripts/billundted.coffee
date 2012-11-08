@@ -16,4 +16,12 @@ module.exports = (robot) ->
   robot.hear /Ted|Nashorn/i, (msg) ->
     msg.reply msg.random Ted
 
+Zaziki = ["Ins zaziki Griechenland !"]
+module.exports = (robot) ->
+  robot.hear /Griechenland|Grieche|zaziki/i, (msg) ->
+    msg.reply msg.random Zaziki
+
+
+
+
 
